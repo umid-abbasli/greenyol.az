@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"
+        integrity="sha512-nO7wgHUoWPYGCNriyGzcFwPSF+bPDOR+NvtOYy2wMcWkrnCNPKBcFEkU80XIN14UVja0Gdnff9EmydyLlOL7mQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Greenyol</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="head-section">
+                <div class="head-nd-logo">
+                    <div class="head-logo">
+                        <a href="/"><img src="/img/greenyol-logo.png" alt=""></a>
+                    </div>
+                    <ul class="head-languages">
+                        <li class="active"><a href="/">AZ</a></li>
+                        <li><a href="/en/">EN</a></li>
+                        <li><a href="/ru/">RU</a></li>
+                    </ul>
+                </div>
+
+                <div class="mobile_btn" id="mobile_btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav>
+
+                    <ul class="head-navlinks">
+                        <li><a href="/"> Ana səhifə</a></li>
+                        <li class="open"><a href="/about/"> Şirkət </a>
+                            <ul class="dropdown-nav">
+                                <li><a href="">Haqqında</a></li>
+                                <li><a href="">Direktorun müraciəti</a></li>
+                                <li><a href="">Missiya və vizyonumuz</a></li>
+                                <li><a href="">Sertifikatlar</a></li>
+                            </ul>
+                        </li>
+                        <li class="open"><a href="/services/">Xidmətlər</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="">Xirmət-1</a></li>
+                                <li><a href="">Xirmət-2</a></li>
+                                <li><a href="">Xirmət-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/furniture/">Layihələr</a></li>
+
+                        <li><a href="/contact">Tərəfdaşlar</a></li>
+                        <li><a href="/contact">Əlaqə</a></li>
+                        <li> <a href="" class="price-offer" data-toggle="modal" data-target="#exampleModalLong">
+                                <span>Qiymət təklifi al</span> </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- section-1 slider -->
+    <main>
+        <section>
+            <div class="head-slider">
+                <div class="sliderSlick">
+                    <div class="box-part .slick-active">
+                        <div class="box " style="background-image: url('/img/sla1.png');">
+                        </div>
+                        <div class="slide-txt">
+                            <div class="container">
+                                <span>Greenyol</span>
+                                <h3>Lorem, ipsum dolor.</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam velit alias, vel hic
+                                    nihil
+                                    est.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-part">
+                        <div class="box" style="background-image: url('/img/sla2.jpg');">
+                        </div>
+                        <div class="slide-txt">
+                            <div class="container">
+                                <span>Greenyol</span>
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita odit,
+                                    laborum
+                                    minima doloribus quo ab commodi! Eos, tenetur quam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-part">
+                        <div class="box" style="background-image: url('/img/sla3.jpg');">
+                        </div>
+                        <div class="slide-txt">
+                            <div class="container">
+                                <span>Greenyol</span>
+                                <h3>lorem</h3>
+                                <p>Lorem ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <div class="container">
+                        <button class="slick-prev slick-arrow">
+                            <span></span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.68 12" fill="#2e3134"
+                                width="17" height="12">
+                                <path d="M14.68,5.19H1V6.82H14.68Z"></path>
+                                <path d="M7.15,1.15,6,0,0,6,1.15,7.15Z"></path>
+                                <path d="M7.15,10.85l-6-6L0,6l6,6Z"></path>
+                            </svg></button>
+                        <button class="slick-next slick-arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 18 14.72" fill="#2e3134" width="17" height="12">
+                                <path d="M0 6.36H16.72V8.36H0z"></path>
+                                <path transform="rotate(-45 13.615 4.38)" d="M12.62 -0.82H14.61V9.59H12.62z"></path>
+                                <path transform="rotate(-45 13.61 10.333)" d="M8.41 9.34H18.82V11.33H8.41z"></path>
+                            </svg></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-1-end -->
+        <!-- section-2-about -->
+
+        <section>
+            <div class="section-2">
+                <div class="container">
+                    <div class="section-head">
+                        <h4>Haqqımızda</h4>
+                        <a href="/" class="section-head-link">
+                            <span>Haqqımızda</span>
+                            <p><i class="fa-solid fa-chevron-right"></i></p>
+                        </a>
+                    </div>
+                    <div class="section-2-cards">
+                        <a href="" class="section-2-card section-2-active-card">
+                            <div class="section-2-card-head">
+                                <p> lorem</p>
+                            </div>
+                            <div class="section-2-card-info">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe impedit quia
+                                    quis voluptatem quos!</p>
+                            </div>
+                            <div class="section-2-card-stats">
+                                <div id="a" class="animated-sec-2-card-stats ">
+                                    <p class="animatedcardnumber animate__animated">14</p>
+                                    <p class="animatedcarddesc animate__animated">illik təcrübə</p>
+                                </div>
+                            </div>
+                            <div class="section-2-card-down">
+                                <p><i class="fa-solid fa-chevron-right"></i></p>
+                                <ul>
+                                    <li>lorem</li>
+                                    <li>1 aprel 2023</li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a href="" class="section-2-card">
+                            <div class="section-2-card-head">
+                                <p> lorem</p>
+                            </div>
+                            <div class="section-2-card-info">
+                                <h3>Lorem ipsum dolor sit.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe impedit quia
+                                    quis voluptatem quos!</p>
+                            </div>
+                            <div class="section-2-card-2-down">
+                                <div class="section-2-card-down">
+                                    <p><i class="fa-solid fa-chevron-right"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-2-end -->
+        <!-- section 3 xidmetler -->
+        <section>
+            <div class="section-3">
+                <!-- <div class="container"> -->
+                <div class="parent">
+                    <a href="" id="video-div" class="div1 width-overlay video-div">
+                        <div class="services-info ">
+                            <p>lorem</p>
+                            <h2>lorem ipsum dolor</h2>
+                            <span>Daha ətraflı <img src="https://www.bas.kz/front/img/arrow_white_pt.svg" alt=""></span>
+                        </div>
+                        <video id="my-video" data-play="hover" muted="muted" class="vid video" loop>
+                            <source src="/img/b28e614d-e101-4f85-b6f6-8ba593f428b0.mp4" type="video/mp4">
+                            </source>
+                        </video>
+                    </a>
+                    <a href="" class="div2 simple-grid-div">
+                        <h2>11</h2>
+                        <p>Lorem ipsum dolor lorem dolor sit amet.</p>
+                    </a>
+                    <a href="" id="video-div2" onmouseover="videoplay()" class="div3 width-overlay video-div">
+                        <div class="services-info">
+                            <p>lorem</p>
+                            <h2>lorem ipsum dolor</h2>
+                            <span>Daha ətraflı <img src="https://www.bas.kz/front/img/arrow_white_pt.svg" alt=""></span>
+                        </div>
+                        <video muted="muted" class="vid2 video" loop
+                            src="/img/f6211979-6f94-4c8f-9daf-4e0ff1f6e5b8.mp4"></video>
+                    </a>
+                    <a href="" class="div4 simple-grid-div">
+                        <h2>60+</h2>
+                        <p>Lorem ipsum dolor lorem dolor sit amet.</p>
+                    </a>
+                    <a href="" class="div5 simple-grid-div">
+                        <h2>500+</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi velit error ut asperiores?</p>
+                    </a>
+                    <a href="" id="video-div3" class="div6 width-overlay video-div">
+                        <div class="services-info">
+                            <p>lorem</p>
+                            <h2>lorem ipsum dolor</h2>
+                            <span>Daha ətraflı <img src="https://www.bas.kz/front/img/arrow_white_pt.svg" alt=""></span>
+                        </div>
+                        <video id="my-video" muted="muted" class="vid3 video" loop
+                            src="/img/2297bd43-1618-4fad-8729-6fd681a7a928.mp4"></video>
+                    </a>
+                    <a href="" class="div7 simple-grid-div">
+                        <h2>20+</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, a atque laudantium vitae odio facilis ipsam eligendi
+                            aliquid quia.</p>
+                    </a>
+                </div>
+                <!-- </div> -->
+            </div>
+        </section>
+        <!-- section-3-end -->
+        <!-- section-4 layiheler -->
+        <section>
+            <div class="section-4">
+                <div class="container">
+                    <div class="section-4-head">
+                        <div class="section-4-name">
+                            <p>lorem ipsum</p>
+                            <h2>Layihələr</h2>
+                        </div>
+                        <div class="section-4-head-buttons">
+                            <a href="">Bütün layihələrə bax</a>
+                        </div>
+                    </div>
+                    <div class="section-4-content">
+                        <!-- <div class="section-4-titles">
+                            <h6>Layihənin adı</h6>
+                            <h6>İstiqaməti</h6>
+                            <h6>Şəhəri</h6>
+                            <h6>Müddəti</h6>
+                            <h6>Bitmə tarixi</h6>
+                        </div> -->
+                        <div class="section-4-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <td>Layihənin adı</td>
+                                        <td>İstiqaməti</td>
+                                        <td>Şəhəri</td>
+                                        <td>Müddəti</td>
+                                        <td>Bitmə tarixi</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><a href="">Lorem ipsum dolor sit amet.</a></td>
+                                        <td><a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                        </td>
+                                        <td><a href="">lorem</a></td>
+                                        <td><a href="">5gün</a></td>
+                                        <td><a href="">08.03.2023</a></td>
+                                        <td><a href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Lorem ipsum dolor sit amet.</a></td>
+                                        <td><a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                        </td>
+                                        <td><a href="">lorem</a></td>
+                                        <td><a href="">5gün</a></td>
+                                        <td><a href="">08.03.2023</a></td>
+                                        <td><a href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Lorem ipsum dolor sit amet.</a></td>
+                                        <td><a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                        </td>
+                                        <td><a href="">lorem</a></td>
+                                        <td><a href="">5gün</a></td>
+                                        <td><a href="">08.03.2023</a></td>
+                                        <td><a href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Lorem ipsum dolor sit amet.</a></td>
+                                        <td><a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                        </td>
+                                        <td><a href="">lorem</a></td>
+                                        <td><a href="">5gün</a></td>
+                                        <td><a href="">08.03.2023</a></td>
+                                        <td><a href=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="">Lorem ipsum dolor sit amet.</a></td>
+                                        <td><a href="">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                                        </td>
+                                        <td><a href="">lorem</a></td>
+                                        <td><a href="">5gün</a></td>
+                                        <td><a href="">08.03.2023</a></td>
+                                        <td><a href=""></a></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 4 layiheler end -->
+        <!-- section-5 references -->
+
+        <section>
+            <section id="references">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="ref-box">
+                                <img src="/img/1667649990_1644238736_3.jpg" alt="">
+                                <p>Lorem</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-8">
+                            <div class="detail-box">
+                                <p>Bizə etibar edən dövlət müəssisələri və özəl təşkilatlarla tanış olun</p>
+                                <a href="/references/">Bütün referanslara bax</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- section 5 references end -->
+        <!-- section 6 call to action-->
+        <section id="action">
+            <div class="row">
+                <div class="col-lg-4">
+                    <p class="big">Bir kliklə qiymət təklifi sizdə olsun.</p>
+                    <p class="little">Təcrübəli mütəxəssis heyətimiz tərəfindən büdcənizə və vaxtınıza qənaət
+                        edərək uğurlu inkişaf yolunda addımlamağa başlayacaqsınız.</p>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-6 white-input">
+
+                    <form method="post" id="sendmail" name="sendmail" action="">
+                        <input type="hidden" name="linkk" />
+                        <input type="hidden" name="device">
+                        <input type="hidden" name="ipadresi">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-12 col-sm-12 pb-3">
+                                <label class="ui-field__label"> <input class=" ui-field__input" type="text" name="ad"
+                                        required="di" minlength="2" id="namesurname">
+                                    <span class="ui-field__name"> Adınız və soyadınız : </span> </label>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 col-sm-12 pb-3">
+                                <label class="ui-field__label"> <input class=" ui-field__input" type="text" name="phone"
+                                        required="di" minlength="2" id="phone-number">
+                                    <span class="ui-field__name"> Telefon nömrəniz : </span> </label>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 col-sm-12 pb-3">
+                                <label class="ui-field__label"> <input class=" ui-field__input" type="text"
+                                        name="company" required="di" minlength="2" id="company">
+                                    <span class="ui-field__name"> Təmsil etdiyiniz şirkət : </span> </label>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-12 col-sm-12">
+                                <label class="ui-field__label"> <input class=" ui-field__input" type="text"
+                                        name="message" required="di" minlength="2" id="message">
+                                    <span class="ui-field__name"> Qeydləriniz </span> </label>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 col-sm-12 mt-3">
+                                <input type="submit" name="submit" value="Göndər" class="red-btn2 btn-send mt-3">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <!-- section 6 call to action end -->
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-up">
+                    <ul>
+                        <li>Lorem</li>
+                        <li>
+                            <a href="tel:0558797970">0558797970</a>
+                            <a href="mailto:info.greenyol@gmail.com ">info.greenyol@gmail.com</a>
+                        </li>
+                        <li><a href="tel:0558797970"><i class="fa-solid fa-phone"></i></a></li>
+                        <li>
+                            <p><a href="">Loremipsum</a></p>
+                            <img src="https://glorax.com/n/img/qr-footer.da888d8.png" alt="">
+                        </li>
+                        <li><a href="">lorem ipsum</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Lorem.</a></li>
+                        <li><a href="">Cupiditate?</a></li>
+                        <li><a href="">Cupiditate.</a></li>
+                        <li><a href="">Sed.</a></li>
+                        <li><a href="">Sit</a></li>
+                        <li><a href="">Sapiente.</a></li>
+                        <li><a href="">Nam.</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Lorem.</a></li>
+                        <li><a href="">Blanditiis.</a></li>
+                        <li><a href="">Optio!</a></li>
+                        <li><a href="">Consectetur.</a></li>
+                        <li><a href="">Debitis!</a></li>
+                        <li><a href="">Mollitia.</a></li>
+                        <li><a href="">Pariatur!</a></li>
+                        <li><a href="">Tempora.</a></li>
+                        <li><a href="">Lorem.</a></li>
+                        <li><a href="">Blanditiis.</a></li>
+                        <li><a href="">Optio!</a></li>
+                        <li><a href="">Consectetur.</a></li>
+                        <li><a href="">Debitis!</a></li>
+                        <li><a href="">Mollitia.</a></li>
+                        <li><a href="">Pariatur!</a></li>
+                        <li><a href="">Tempora.</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="">Lorem.</a></li>
+                        <li><a href="">Sit.</a></li>
+                        <li><a href="">Suscipit?</a></li>
+                        <li><a href="">Recusandae.</a></li>
+                        <li><a href="">Laudantium.</a></li>
+                        <li><a href="">Deserunt?</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="all-footer-down">
+                <div class="container">
+                    <div class="footer-down">
+                        <div class="footer-down-icons">
+                            <a href="" class="footer-icon-1"><img src="/img/instagram.png" alt=""><span>Instagram<svg
+                                        viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="arrow_1yZPg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.00001 2.90039H8.10001V9.00039H6.90001V4.94892L2.42427 9.42465L1.57574 8.57613L6.05148 4.10039H2.00001V2.90039Z">
+                                        </path>
+                                    </svg></span></a>
+                            <a href="" class="footer-icon-2"><img src="/img/facebook.png" alt=""><span>Facebook<svg
+                                        viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="arrow_1yZPg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.00001 2.90039H8.10001V9.00039H6.90001V4.94892L2.42427 9.42465L1.57574 8.57613L6.05148 4.10039H2.00001V2.90039Z">
+                                        </path>
+                                    </svg></span></a>
+                            <a href="" class="footer-icon-3"><img src="/img/linkedin.png" alt=""><span>Linkedin<svg
+                                        viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="arrow_1yZPg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.00001 2.90039H8.10001V9.00039H6.90001V4.94892L2.42427 9.42465L1.57574 8.57613L6.05148 4.10039H2.00001V2.90039Z">
+                                        </path>
+                                    </svg></span></a>
+                            <a href="" class="footer-icon-4"><img src="/img/twitter.png" alt=""><span>Twitter<svg
+                                        viewBox="0 0 10 20" xmlns="http://www.w3.org/2000/svg" class="arrow_1yZPg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M2.00001 2.90039H8.10001V9.00039H6.90001V4.94892L2.42427 9.42465L1.57574 8.57613L6.05148 4.10039H2.00001V2.90039Z">
+                                        </path>
+                                    </svg></span></a>
+                        </div>
+                        <div class="footer-down-right">
+                            <ul>
+                                <li><img src="/img/greenyol-logo.png" alt=""></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam beatae minima,
+                                    laborum delectus quibusdam natus odio distinctio, nostrum mollitia, repellat vero
+                                    laudantium cumque? Quo, unde!</li>
+                                <li>
+                                    <p>lorem ipsum?</p>
+                                    <a href="">lorem ipsum</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li><i class="fa-regular fa-copyright"></i>2023 Greenyol</li>
+                                <li>lorem ipsum dolor</li>
+                                <li><a href=""> site by OKmedia - <img src="/img/okmedia.png" alt="okmedia logo"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- scripts -->
+    <script src="/js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="/js/myfontawasome.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
